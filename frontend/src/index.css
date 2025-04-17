@@ -1,0 +1,90 @@
+/* Šakninis stilius */
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+  background-color: #f4f4f9;
+}
+
+/* Kūnas */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+
+/* Nuorodos */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #388E3C;
+  text-decoration: underline;
+}
+
+/* Bootstrap mygtukų papildoma stilistika */
+.btn-success {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.btn-success:hover {
+  background-color: #388E3C;
+  border-color: #388E3C;
+}
+
+/* Footer stilius */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4CAF50 !important;
+  color: white;
+  margin-top: auto;
+}
+.navbar {
+  background: linear-gradient(90deg, #2e7d32, #66bb6a) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4edda !important;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #d4edda;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.btn-outline-light {
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #4CAF50 !important;
+}

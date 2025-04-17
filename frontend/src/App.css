@@ -1,0 +1,20 @@
+/* Pritaikoma visam React root konteineriui */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Galima naudoti papildomiems dėžutėms, jei reikės */
+.card-custom {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+/* Kad footeras būtų apačioje jei mažai turinio */
+.main-content {
+  flex: 1;
+}
